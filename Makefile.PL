@@ -14,7 +14,7 @@ WriteMakefile(
     PL_FILES  => {},
     PREREQ_PM => {
         'Test::More'      => 0,
-        'MojoX::Automata' => 0,
+        'MojoX::Automata' => '0.500',
         'Graph::Easy'     => 0
     },
     dist  => {COMPRESS => 'gzip -9f', SUFFIX => 'gz'},

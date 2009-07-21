@@ -5,7 +5,7 @@ use warnings;
 
 use Graph::Easy;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 sub _graph_easy { Graph::Easy->new }
 
